@@ -5,7 +5,7 @@ from django.contrib.auth import (
     get_user_model,
     authenticate,
 )
-from django.db.migrations import serializer
+from django.db.migrations import serializer  # noqa
 from django.utils.translation import gettext as _
 
 from rest_framework import serializers
